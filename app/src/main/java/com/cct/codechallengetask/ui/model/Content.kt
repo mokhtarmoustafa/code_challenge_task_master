@@ -6,8 +6,8 @@ import com.cct.codechallengetask.model.Retailer
 import com.google.gson.annotations.SerializedName
 
 data class Content(
-//    @SerializedName("badges")
-//    var badges: List<Any>,
+    @SerializedName("badges")
+    var badges: List<Any>,
     @SerializedName("brochureImage")
     var brochureImage: String,
     @SerializedName("distance")

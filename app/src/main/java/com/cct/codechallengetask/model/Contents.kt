@@ -7,7 +7,7 @@ data class Contents(
 //    @SerializedName("adFormat")
 //    var adFormat: String?,
     @SerializedName("content")
-    var content: Content,
+    var content: Any,
 //    @SerializedName("contentFormatSource")
 //    var contentFormatSource: String,
 //    @SerializedName("contentType")
